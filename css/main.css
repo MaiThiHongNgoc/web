@@ -24,6 +24,11 @@
     text-decoration: none;
     font-weight: 300;
 }
+.header_navbar-item:hover,
+.header_navbar-item-link:hover {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.7);
+}
 .header_navbar-item--strong {
     font-size: 400;
 }
@@ -32,5 +37,12 @@
     display: block;
     position: absolute;
     border-left: 1px solid #FB9086;
-    height: 12px;
+    height: 16px;
+    right: -9px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.header_navbar-icon-link {
+    color: var(--white-color);
+    text-decoration: none;
 }
