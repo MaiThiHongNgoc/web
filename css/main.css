@@ -340,11 +340,11 @@ button:hover {
 
 }
 .header_logo {
-    width: 260px;
+    width: 350px;
     background-color: var(--white-color);
 }
 .header_logo-img {
-    width: 280px;
+    width: 320px;
     height: 100px;
     background-color: var(--white-color);
 }
@@ -353,7 +353,7 @@ button:hover {
     height: 40px;
     border-radius: 2px;
     background-color: var(--white-color);
-    border: 1px solid #a91a1a;
+    border: 2px solid #a91a1a;
     margin: 30px 120px 10px 30px;
 
 }
@@ -361,6 +361,38 @@ button:hover {
     width: 150px;
     text-align: center;
 }
-.header_cart-icon {
-    font-size: 2.4rem;
+.header_search{
+    display: flex;
 }
+.header_search-menu {
+    height: 35px;
+    width: 100px;
+    border-right: 1px solid #a91a1a;
+    background-color: white;
+    display: flex;
+}
+span{
+    color: #a91a1a;
+    font-size: 2rem;
+    padding: 12px 3px 3px 3px;
+}
+.header_search-menu-img{
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    padding: 10px 10px 9px 10px;
+    background-color: #a91a1a;
+}
+.header_search-input {
+    width: 70%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 1.4rem;
+    color: var(--text-color);
+    padding: 0 16px;
+    border-radius: 3px;
+}
+
+
+
